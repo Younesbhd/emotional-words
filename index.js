@@ -253,7 +253,7 @@
   var source = CY.getUserMediaCameraFactory().createCamera({video: document.getElementById('video')});
 
   var loader = CY.loader()
-    //.licenseKey("2b590f5128c08591fa836ff547149d8ddc24635f850c")
+    .licenseKey("2b590f5128c08591fa836ff547149d8ddc24635f850c")
     .source(source)
     .addModule(CY.modules().FACE_AROUSAL_VALENCE.name, {smoothness: 0.6});
 
